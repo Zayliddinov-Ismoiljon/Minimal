@@ -1,0 +1,60 @@
+.recent{
+    background-color: #F5F5F5;
+    padding: 79px 0px 89px 0px;
+}
+
+.recent__title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.recent__span{
+    width: 80px;
+    height: 2px;
+    display: block;
+    background-color:  rgba(0, 0, 0, 0.09);
+    margin: 28px auto 43px auto;
+    padding: 0;
+}
+
+.recent__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    margin: 0;
+    padding: 0;
+}
+
+.recent__item{
+    width: 300px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding-bottom: 21px;
+}
+
+.recent__heading{
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
+    margin: 19px auto 9px auto;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.recent__text{
+    font-family: "Vollkorn",sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

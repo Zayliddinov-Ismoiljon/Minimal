@@ -1,0 +1,77 @@
+.site-footer{
+    background-color: #000000;
+    padding: 70px 0px;
+}
+
+.site-footer__form{
+    width: 564px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer__input{
+    width: 100%;
+    height: 57px;
+    padding: 18px 31px;
+    background-color: rgba(255, 255, 255, 0.18);
+    border: none;
+    color: #fff;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: "Vollkorn", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.site-footer__input ~ .site-footer__input{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.site-footer__input ~ .site-footer__input ~ .site-footer__input{
+    background: rgba(255, 255, 255, 0.18);
+}
+
+textarea{
+    padding: 17px 31px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    resize: vertical;
+    color: #fff;
+}
+
+.site-footer__button{
+    width: 210px;
+    padding: 15px 47px;
+    margin: 23px auto 39px auto;
+    background-color: #000000;
+    color: #8BCAC3;
+    border: 1px solid #7EC4BD;
+    font-family: "Vollkorn", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.site-footer__info{
+    width: 391px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.site-footer__text{
+    font-family: "Vollkorn", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 14px;
+    padding: 0;
+}

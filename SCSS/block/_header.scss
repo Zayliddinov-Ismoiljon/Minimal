@@ -1,0 +1,45 @@
+.site-header{
+    padding: 18px 0px;
+}
+
+.site-header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header__link:hover{
+    opacity: 0.8;
+}
+
+.site-header__navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.site-header__list{
+    list-style: none;
+    width: 358px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header__item{
+    margin: 0;
+    padding: 0;
+}
+
+.site-header__link1{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #404040;
+    text-transform: uppercase;
+}
+

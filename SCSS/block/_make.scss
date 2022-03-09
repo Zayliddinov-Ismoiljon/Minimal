@@ -1,0 +1,65 @@
+.make{
+    margin: 0;
+    padding: 79px 0px;
+}
+
+.make__title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.make__span{
+    width: 80px;
+    height: 2px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin: 23px auto 43px auto;
+}
+
+.make__list{
+    list-style: none;
+    display: flex;
+    width: 940px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.make__item{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.make__info{
+    width: 297px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.make__heading{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin: 38px auto 20px auto;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.make__text{
+    font-family: "Vollkorn", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,33 @@
+.minimalist{
+    background-color: #FEFEC9;
+    width: 1440px;
+    height: 289px;
+    padding: 60px 0px;
+    margin: 0 auto;
+}
+
+.minimalist__info{
+    text-align: center;
+}
+
+.minimalist__text{
+    font-family: "Vollkorn", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #47474F;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.minimalist__link{
+    width: 159px;
+    padding: 13px 30px;
+    background-color: #FEFEC9;
+    text-decoration: none;
+    font-family: "Vollkorn", sans-serif;
+    font-size: 16px;
+    color: #47474F;
+    border: 1px solid #47474F;
+    border-radius: 5px;
+}

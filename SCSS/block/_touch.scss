@@ -1,0 +1,64 @@
+.touch{
+    background-image: url(../../image/touch-bg.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 517px;
+    margin: 0 auto;
+    padding: 79px 0px;
+}
+
+.touch__title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.touch__span{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color:  rgba(0, 0, 0, 0.09);
+    margin: 28px auto 56px auto;
+    padding: 0;
+}
+
+.touch__list{
+    width: 960px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.touch__item{
+    width: 178px;
+    text-align: center;
+}
+
+.touch__item:nth-child(2){
+    width: 195px;
+}
+
+.touch__heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin: 20px auto 26px auto;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.touch__text{
+    font-family: "Vollkorn";
+    font-size: 17px;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}

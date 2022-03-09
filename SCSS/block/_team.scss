@@ -1,0 +1,65 @@
+.team{
+    margin: 0;
+    padding: 79px 0px 99px 0px;
+}
+
+.team__title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.team__span{
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color:  rgba(0, 0, 0, 0.09);
+    margin: 28px auto 40px auto;
+}
+
+.team__list{
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.team__item{
+    width: 240px;
+    margin: 0;
+    padding: 0px 10px 11px 10px;
+}
+
+.team__heading{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+.team__text{
+    font-family: "Vollkorn", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.team__info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    width: 65px;
+    margin-top: 17px;
+}

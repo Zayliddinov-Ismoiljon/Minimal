@@ -1,0 +1,68 @@
+.bio{
+    background-color: #F5F5F5;
+    padding-top: 196px;
+    padding-bottom: 98px;
+}
+
+.bio__inner{
+    display: flex;
+    width: 893px;
+    justify-content: space-between;
+}
+
+.bio__list{
+    position: relative;
+    width: 893px;
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.bio__list::before{
+    position: absolute;
+    z-index: 1;
+    content: " ";
+    background-image: url(../../image/bio-before.svg);
+    width: 62px;
+    height: 62px;
+    top: -95px;
+    left: 414px;
+}
+
+.bio__item{
+    width: 338px;
+    text-align: center;
+}
+
+.bio__blockquote{
+    font-family: "Vollkorn",sans-serif;
+    font-size: 26px;
+    line-height: 33px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.bio__img{
+    width: 64px;
+    height: 64px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.bio__text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #ABABAB;
+    margin: 0;
+    padding: 0;
+}
+
+.bio__span{
+    display: block;
+    width: 2px;
+    height: 215px;
+    background-color: rgba(0, 0, 0, 0.04);
+}

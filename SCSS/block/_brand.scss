@@ -1,0 +1,55 @@
+.brand{
+    position: relative;
+    background-image: url(../../image/brand-bg.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 391px;
+    margin: 0 auto;
+    padding: 105px 0px;
+}
+
+.brand__inner{
+    position: relative;
+    width: 662px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.brand__inner::before{
+    position: absolute;
+    z-index: 1;
+    content: " ";
+    background-image: url(../../image/brand-before.svg);
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 52px;
+    top: 260px;
+    left: 309px;
+}
+
+.brand__title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 55px;
+}
+
+.brand__span{
+    width: 80px;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin: 28px auto;
+}
+
+.brand__text{
+    font-family: "Vollkorn", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.81;
+}
